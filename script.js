@@ -41,7 +41,7 @@ const loginUrl = process.env.APP_LOGIN_URL;
   await nextButton2[0].click();
   await page.waitForNavigation({ waitUntil: "networkidle0" });
 
-  // Closer the browser
+  // Close the browser
   await browser.close();
 })();
 
