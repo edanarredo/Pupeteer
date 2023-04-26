@@ -8,6 +8,7 @@ This is a test puppeteer script using node-js to log into LeetCode using SSO log
 ## Steps to Run
 1) Clone git repository into your machine
 2) Create a `.env` file with the following variables 
+
     ```
     EMAIL=email@email.com
     PASSWORD=crazy-wacky-password
