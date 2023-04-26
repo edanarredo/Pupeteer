@@ -45,7 +45,7 @@ const loginUrl = process.env.APP_LOGIN_URL;
   await browser.close();
 })();
 
-async function simulateClick(page, selector, xPath = false) {
+async function simulateClick(page, selector) {
   await page.evaluate((selector) => {
     const element = document.querySelector(selector);
     if (element) {
