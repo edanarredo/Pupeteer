@@ -7,7 +7,7 @@ This is a test puppeteer script using node-js to login to LeetCode using SSO.
 
 ## Steps to Run
 1) Clone git repository into your machine
-2) Create a `.env` file with the following variables 
+2) Create a `.env` file with the following variables. Email and password should be a test accounts basic auth credentials. Be careful with your real credentials. 
 
     ```
     EMAIL=email@email.com
