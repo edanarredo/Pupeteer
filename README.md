@@ -1,5 +1,5 @@
 # Puppeteer Test
-This is a test puppeteer script using node-js to log into LeetCode using SSO login.
+This is a test puppeteer script using node-js to login to LeetCode using SSO.
 
 ## Requirements
 - Node.js v16.15.1
